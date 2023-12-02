@@ -1,0 +1,22 @@
+<div>
+    <div class="col-md-6">
+        <h4>Num invocaciones servicios </h4>
+        <ul class="list-group">
+            <table>
+                <thead>
+                <th>id</th>
+                <th>service</th>
+                <th>fecha</th>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let tutorial of servicesMarvel; let i = index">
+
+                        <td> {{ tutorial.id }}</td>
+                        <td> {{ tutorial.servicio }}</td>
+                        <td> {{ tutorial.fecha }}</td>
+                    </tr >
+                </tbody>
+            </table>
+        </ul>
+    </div>
+</div>
